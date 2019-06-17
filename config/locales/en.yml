@@ -45,6 +45,7 @@ en:
   flb_email: "Email"
   flb_password: "Password"
   flb_re_password: "Confirm password"
+  flb_remember_me: "Remember"
 
   # Buttons:
   create_btn: "Create!"
@@ -95,3 +96,4 @@ en:
       page_header: "Sign in"
       ct_1: "New user? "
       ct_2: "Sign up now!"
+      ct_3: "Remember me on this computer"
