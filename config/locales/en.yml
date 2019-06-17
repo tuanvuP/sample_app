@@ -16,6 +16,7 @@ en:
   sign_in: "Sign in"
   all_users: "All users"
   edit: "Edit"
+  pw_reset: "Password reset"
 
   # Link titles:
   contact: "Contact"
@@ -52,6 +53,11 @@ en:
   invalid_activation_link: "Invalid activation link!"
   account_not_actived: "Account not activated. Check your email for the activation link."
   check_email_for_activate_account: "Please check your email to activate your account."
+  password_reset_email_sent: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  cant_be_empty: "can't be empty"
+  password_reset_successfully: "Password has been reset."
+  expired_password: "Password reset has expired."
 
   # Form field labels:
   flb_name: "Name"
@@ -64,6 +70,8 @@ en:
   create_btn: "Create!"
   login_btn: "Log in!"
   update_btn: "Update!"
+  update_pw_btn: "Update password!"
+  submit_btn: "Submit!"
 
   static_pages:
     about:
@@ -116,6 +124,7 @@ en:
       ct_1: "New user? "
       ct_2: "Sign up now!"
       ct_3: "Remember me on this computer"
+      forgot_password: "(Forgot password???)"
 
   user_mailer:
     account_activation:
@@ -124,3 +133,10 @@ en:
       content: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate_link: "Activate!!"
       activate_account_subject: "Account activate"
+      password_reset_subject: "Password reset"
+    password_reset:
+      reset_pw: "Reset Password"
+
+  password_resets:
+    edit:
+      page_header: "Password reset"

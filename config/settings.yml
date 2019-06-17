@@ -8,3 +8,4 @@ gravatar_option_size: 80
 ENV_prod_address: "smtp.sendgrid.net"
 ENV_prod_port: "587"
 ENV_prod_domain: "heroku.com"
+password_reset_expired: 1
