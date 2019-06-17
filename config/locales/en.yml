@@ -1,33 +1,43 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  # Page titles:
+  about: "About"
+  help: "Help"
+  home: "Home"
+
+  # Urls:
+  railstutorial_url: "https://www.railstutorial.org/"
+  railstutorial_book_url: "https://www.railstutorial.org/book"
+  railstutorial_help_url: "https://www.railstutorial.org/help"
+  screencasts_url: "http://screencasts.railstutorial.org/"
+  ror_url: "http://rubyonrails.org/"
+
+  layouts:
+    application:
+      title: "Ruby on Rails Tutorial Sample App"
+
+  static_pages:
+    about:
+      page_header: "About"
+      ct_1: "The"
+      ct_2: "Ruby on Rails Tutorial"
+      ct_3: "is a"
+      ct_4: "book"
+      ct_5: "and"
+      ct_6: "screencast series"
+      ct_7: "to teach web development with"
+      ct_8: "Ruby on Rails"
+      ct_9: "This is the sample application for the tutorial."
+
+    help:
+      page_header: "Help"
+      ct_1: "Get help on the Ruby on Rails Tutorial at the"
+      ct_2: "Rails Tutorial help section"
+      ct_3: "To get help on this sample app, see the"
+      ct_4: "Ruby on Rails Tutorial"
+      ct_5: "book."
+
+    home:
+      page_header: "Home"
+      ct_1: "This is the home page for the"
+      ct_2: "Ruby on Rails Tutorial"
+      ct_3: "sample application."
