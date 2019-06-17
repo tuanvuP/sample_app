@@ -1,4 +1,9 @@
 en:
+  # I18n count:
+  error_count:
+    one: "The form contains %{count} error."
+    other: "The form contains %{count} errors."
+
   # Base title:
   base_title: "Ruby on Rails Tutorial Sample App"
 
@@ -23,6 +28,19 @@ en:
   railstutorial_help_url: "https://www.railstutorial.org/help"
   screencasts_url: "http://screencasts.railstutorial.org/"
   ror_url: "http://rubyonrails.org/"
+
+  # Messages:
+  user_not_found: "User not found"
+  welcome: "Welcome to the app"
+
+  # Form field labels:
+  flb_name: "Name"
+  flb_email: "Email"
+  flb_password: "Password"
+  flb_re_password: "Confirm password"
+
+  # Buttons:
+  create_btn: "Create!"
 
   static_pages:
     about:
