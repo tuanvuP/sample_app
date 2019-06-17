@@ -1,8 +1,15 @@
 en:
+  # JS messages:
+  file_size_too_large: "Maximum file size is 5MB. Please choose a smaller file!"
+
   # I18n count:
   error_count:
     one: "The form contains %{count} error."
     other: "The form contains %{count} errors."
+
+  microposts_count:
+    one: "%{count} post"
+    other: "%{count} posts "
 
   # Base title:
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -58,6 +65,8 @@ en:
   cant_be_empty: "can't be empty"
   password_reset_successfully: "Password has been reset."
   expired_password: "Password reset has expired."
+  successfully: "Successfully"
+  picture_size_too_large: "should be less than 5MB"
 
   # Form field labels:
   flb_name: "Name"
@@ -98,6 +107,7 @@ en:
         <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
         sample application."
       ct_4: "Sign up now!"
+      mic_feed: "Micropost Feed:"
     contact:
       page_header: "Contact"
       content_html: "Contact the Ruby on Rails Tutorial about the sample app at the
@@ -117,6 +127,8 @@ en:
     edit:
       page_header: "Update your profile"
       ct_1: "change"
+    show:
+      microposts: "Microposts:"
 
   sessions:
     new:

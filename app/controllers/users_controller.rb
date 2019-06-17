@@ -13,7 +13,11 @@ class UsersController < ApplicationController
       per_page: Settings.paginate_users
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.sort_created_desc
+                       .paginate page: params[:page],
+                       per_page: Settings.paginate_microposts
+  end
 
   def create
     @user = User.new user_params
