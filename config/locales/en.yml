@@ -23,9 +23,6 @@ en:
   railstutorial_help_url: "https://www.railstutorial.org/help"
   screencasts_url: "http://screencasts.railstutorial.org/"
   ror_url: "http://rubyonrails.org/"
-  michael_url: "http://www.michaelhartl.com/"
-  new_railstutorial_url: "http://news.railstutorial.org/"
-  railstutorial_ct_url: "https://www.railstutorial.org/contact"
 
   static_pages:
     about:
