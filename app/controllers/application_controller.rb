@@ -10,10 +10,9 @@ class ApplicationController < ActionController::Base
   end
 
   def correct_user
-    if !current_user? @user
-      flash[:danger] = t "access_denied"
-      redirect_to root_url
-    end
+    return if current_user? @user
+    flash[:danger] = t "access_denied"
+    redirect_to root_url
   end
 
   def admin_user
