@@ -14,6 +14,8 @@ en:
   contact: "Contact"
   sign_up: "Sign up"
   sign_in: "Sign in"
+  all_users: "All users"
+  edit: "Edit"
 
   # Link titles:
   contact: "Contact"
@@ -27,6 +29,7 @@ en:
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
+  delete: "Delete"
 
   # Urls:
   railstutorial_url: "https://www.railstutorial.org/"
@@ -39,6 +42,12 @@ en:
   user_not_found: "User not found"
   welcome: "Welcome to the app"
   invalid_email_or_password: "Invalid email/password combination"
+  login_first: "Please log in to continue."
+  update_successfully: "Updated Successfully"
+  delete_successfully: "Deleted Successfully"
+  error_message: "Something went wrong"
+  delete_confirm: "Are you sure?"
+  access_denied: "Access denied!"
 
   # Form field labels:
   flb_name: "Name"
@@ -50,6 +59,7 @@ en:
   # Buttons:
   create_btn: "Create!"
   login_btn: "Log in!"
+  update_btn: "Update!"
 
   static_pages:
     about:
@@ -90,6 +100,11 @@ en:
     new:
       page_header: "Sign up"
       ct_1: "This will be a signup page for new users."
+    index:
+      page_header: "All users"
+    edit:
+      page_header: "Update your profile"
+      ct_1: "change"
 
   sessions:
     new:

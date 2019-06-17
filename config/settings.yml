@@ -2,3 +2,6 @@ user_name_max_length: 50
 email_max_length: 255
 password_min_length: 6
 remember_status: 1
+paginate_users: 20
+gravatar_size: 50
+gravatar_option_size: 80
