@@ -13,6 +13,7 @@ en:
   home: "Home"
   contact: "Contact"
   sign_up: "Sign up"
+  sign_in: "Sign in"
 
   # Link titles:
   contact: "Contact"
@@ -20,7 +21,12 @@ en:
   sample_app: "Sample_app"
   home: "Home"
   help: "Help"
-  log_in: "Log in"
+  login: "Log in"
+  user: "Users"
+  acc: "Account"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"
 
   # Urls:
   railstutorial_url: "https://www.railstutorial.org/"
@@ -32,6 +38,7 @@ en:
   # Messages:
   user_not_found: "User not found"
   welcome: "Welcome to the app"
+  invalid_email_or_password: "Invalid email/password combination"
 
   # Form field labels:
   flb_name: "Name"
@@ -41,6 +48,7 @@ en:
 
   # Buttons:
   create_btn: "Create!"
+  login_btn: "Log in!"
 
   static_pages:
     about:
@@ -81,3 +89,9 @@ en:
     new:
       page_header: "Sign up"
       ct_1: "This will be a signup page for new users."
+
+  sessions:
+    new:
+      page_header: "Sign in"
+      ct_1: "New user? "
+      ct_2: "Sign up now!"
