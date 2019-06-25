@@ -48,6 +48,10 @@ en:
   error_message: "Something went wrong"
   delete_confirm: "Are you sure?"
   access_denied: "Access denied!"
+  account_activated: "Account activated!"
+  invalid_activation_link: "Invalid activation link!"
+  account_not_actived: "Account not activated. Check your email for the activation link."
+  check_email_for_activate_account: "Please check your email to activate your account."
 
   # Form field labels:
   flb_name: "Name"
@@ -112,3 +116,11 @@ en:
       ct_1: "New user? "
       ct_2: "Sign up now!"
       ct_3: "Remember me on this computer"
+
+  user_mailer:
+    account_activation:
+      title: "Sample app"
+      hi: "Hi!"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate_link: "Activate!!"
+      activate_account_subject: "Account activate"
