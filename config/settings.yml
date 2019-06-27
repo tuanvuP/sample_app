@@ -9,3 +9,8 @@ ENV_prod_address: "smtp.sendgrid.net"
 ENV_prod_port: "587"
 ENV_prod_domain: "heroku.com"
 password_reset_expired: 1
+paginate_microposts: 10
+micropost_content_max_length: 140
+micropost_picture_size: 5
+user_micropost_gravatar_size: 50
+user_micropost_picture_types: "image/jpeg,image/gif,image/png"

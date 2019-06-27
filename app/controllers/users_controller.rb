@@ -13,7 +13,11 @@ class UsersController < ApplicationController
       per_page: Settings.paginate_users
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.sort_created_desc
+                       .paginate page: params[:page],
+                       per_page: Settings.paginate_microposts
+  end
 
   def create
     @user = User.new user_params
@@ -44,6 +48,18 @@ class UsersController < ApplicationController
       flash.now[:danger] = t "error_message"
     end
     redirect_to users_url
+  end
+
+  def following
+    @title = t "following"
+    @users = @user.following.paginate page: params[:page]
+    render :show_follow
+  end
+
+  def followers
+    @title = t "followers"
+    @users = @user.followers.paginate page: params[:page]
+    render :show_follow
   end
 
   private

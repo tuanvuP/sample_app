@@ -1,8 +1,19 @@
 en:
+  # JS messages:
+  file_size_too_large: "Maximum file size is 5MB. Please choose a smaller file!"
+
   # I18n count:
   error_count:
     one: "The form contains %{count} error."
     other: "The form contains %{count} errors."
+
+  microposts_count:
+    one: "%{count} post"
+    other: "%{count} posts "
+
+  user_mic_count:
+    one: "Micropost"
+    other: "Microposts"
 
   # Base title:
   base_title: "Ruby on Rails Tutorial Sample App"
@@ -17,6 +28,8 @@ en:
   all_users: "All users"
   edit: "Edit"
   pw_reset: "Password reset"
+  following: "Following"
+  followers: "Followers"
 
   # Link titles:
   contact: "Contact"
@@ -58,6 +71,8 @@ en:
   cant_be_empty: "can't be empty"
   password_reset_successfully: "Password has been reset."
   expired_password: "Password reset has expired."
+  successfully: "Successfully"
+  picture_size_too_large: "should be less than 5MB"
 
   # Form field labels:
   flb_name: "Name"
@@ -72,6 +87,8 @@ en:
   update_btn: "Update!"
   update_pw_btn: "Update password!"
   submit_btn: "Submit!"
+  follow_btn: "Follow!"
+  unfollow_btn: "Unfollow!"
 
   static_pages:
     about:
@@ -98,6 +115,7 @@ en:
         <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
         sample application."
       ct_4: "Sign up now!"
+      mic_feed: "Micropost Feed:"
     contact:
       page_header: "Contact"
       content_html: "Contact the Ruby on Rails Tutorial about the sample app at the
@@ -117,6 +135,8 @@ en:
     edit:
       page_header: "Update your profile"
       ct_1: "change"
+    show:
+      microposts: "Microposts:"
 
   sessions:
     new:
@@ -140,3 +160,8 @@ en:
   password_resets:
     edit:
       page_header: "Password reset"
+
+  shared:
+    stats:
+      following: "following"
+      followers: "followers"
