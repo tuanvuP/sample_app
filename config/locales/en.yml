@@ -11,6 +11,10 @@ en:
     one: "%{count} post"
     other: "%{count} posts "
 
+  user_mic_count:
+    one: "Micropost"
+    other: "Microposts"
+
   # Base title:
   base_title: "Ruby on Rails Tutorial Sample App"
 
@@ -24,6 +28,8 @@ en:
   all_users: "All users"
   edit: "Edit"
   pw_reset: "Password reset"
+  following: "Following"
+  followers: "Followers"
 
   # Link titles:
   contact: "Contact"
@@ -81,6 +87,8 @@ en:
   update_btn: "Update!"
   update_pw_btn: "Update password!"
   submit_btn: "Submit!"
+  follow_btn: "Follow!"
+  unfollow_btn: "Unfollow!"
 
   static_pages:
     about:
@@ -152,3 +160,8 @@ en:
   password_resets:
     edit:
       page_header: "Password reset"
+
+  shared:
+    stats:
+      following: "following"
+      followers: "followers"

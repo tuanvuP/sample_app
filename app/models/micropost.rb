@@ -8,7 +8,7 @@ class Micropost < ApplicationRecord
 
   mount_uploader :picture, PictureUploader
 
-  scope :select_by_user_id, ->(id){where user_id: id}
+  scope :by_follow, ->(following_ids, id){where("user_id IN (#{following_ids}) OR user_id = #{id}")}
 
   private
 
